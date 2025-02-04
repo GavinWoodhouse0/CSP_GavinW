@@ -11,7 +11,7 @@ int sub = 4-5;
 int mul = 4*5;
 float div = 6/4;
 int mod = 6%4;
-double pow(double _5, double _2);
+int ex = pow(5, 2);
 
 int main(void){
     printf("Type a number: \n");
@@ -26,11 +26,6 @@ int main(void){
     printf("%d\n", mul);
     printf("%.2f\n", div);
     printf("%d\n", mod);
-    printf("%d\n", add);
+    printf("%d\n", ex);
     return 0;
-}
-
-double pow(double _5, double _2)
-{
-    return 0.0;
 }
