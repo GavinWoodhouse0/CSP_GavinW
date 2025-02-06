@@ -3,15 +3,15 @@
 #write a print statement telling the user what the program is (Budget calculator)
 
 #Ask for monthly income (User input)
-
+income = float(input("what is your monthly income\n"))
 #Ask for rent amount (User input)
-
+rent = float(input("what is your monthly rent\n"))
 #Ask for utilities amount (User input)
 
 #Ask for groceries income (User input)
 
 #Ask for transportation income (User input)
-income = float(input("what is your monthly income\n"))
+
 #Calcutlate savings as 10% of income (variable)
 
 #Calcutlate spending money income -(rent+utilities+groceries+transportation+savings) (variable)
