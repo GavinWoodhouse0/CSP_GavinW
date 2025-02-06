@@ -10,7 +10,7 @@ int e5 = -2*(4-2/2)+(6+2-3);
 int e6 = -1*((3-4*7)/5)-2*24/6;
 int e7 = 3*(int)pow(5,2)/15-(5-(int)pow(2,2));
 int e8 = ((int)pow(2,2)+(int)pow(3,3))-(int)pow(2,5)/4;
-int e9 = (int)pow(22/2-2*5,2)+(int)pow(4-6/6,5);
+int e9 = (int)pow((22/2-2*5),2)+(int)pow((4-6/6),5);
 
 int main(void){
     printf("%d\n", e1);
