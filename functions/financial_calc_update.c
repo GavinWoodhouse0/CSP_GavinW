@@ -2,20 +2,28 @@
 
 #include <stdio.h>
 
+float amount;
+float income;
+float rent;
+float utilities;
+float groceries;
+float transportation;
+
+char info(float income, float amount, char type[]){
+    float type_percent = amount/income*100;
+    printf("You spend $%.2f on %s and that is %.2f percent of your income\n", amount, type, type_percent);
+    return 0;
+}
+
+    
+float money(char expence[]){
+    printf("What is your monthly %s?\n", expence);
+    scanf("%f", &amount);
+    return amount;
+}
+
 int main(void){
     printf("This is a budget calculator. Type in your monthly spending to how much of your income you spend.\n");
-    
-    char money(char expence[]){
-        printf("What is your monthly %s?\n", expence);
-        scanf("%f", &amount);
-        return 0;
-    }
-
-    char info(float income, float amount, char type[]){
-        float type_percent = amount/income*100;
-        printf("You spend $%.2f on %s and that is %.2f percent of your income\n", amount, type, type_percent);
-        return 0;
-    }
 
     income = money("income");
     rent = money("rent");
