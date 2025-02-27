@@ -10,3 +10,5 @@ elif age >= 15:
     print("Depending on who and where you are, you're probably able to drive!")
 elif age >= 13:
     print("You're probably in junior high now or at least will soon be, but more importantly you can enjoy at lot more movies and video games.")
+else:
+    print("You're not really old enough to do anything actually.")
