@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Basics Notes</title>
+        <meta charset="UTF-8">
+        <!--embeded style sheet-->
+        <style>
+            /* Selector how you tell the CSS what on the page to change
+            1. Element selector
+            2. ID selector
+            3. Class selector */
+            *{
+                background-color: aliceblue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            li{
+                color: coral;
+            }
+            #even{
+                color: #0000ff;
+                font-size: 15px;
+            }
+            .intro{
+                color: rgb(255,0,0);
+                text-align: center;
+            }
+            #img-src{
+                font-size: 7px;
+                color: rgba(128,128,128,0.5);
+            }
+            img{
+                width: 50%;
+            }
+            h1{
+                font-size: 2em;
+                text-align: center;
+                text-decoration: underline;
+                text-emphasis: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>HTML Advanced Notes</h1>
+            <p class="intro">Nesting an html tag is putting is inside of another one.</p>
+            <ol>
+                <li>li tags must be nested.</li>
+                <li id="even">What appears on the webpage is nested in the body tag.</li>
+            </ol>
+        </div>
+        <div>
+            <ul>
+                <li>Butterfinger</li>
+                <li id="even">Crunch</li>
+                <li>100 Grand</li>
+            </ul>
+        </div>
+        <img src="https://m.media-amazon.com/images/I/61N5qg5gAJL.jpg" alt="Some old render of Aang" height="100px">
+            <small><small><p id="img-src">Image from: https://www.amazon.com/GRAPHICS-MORE-Airbender-Picture-Decoration/dp/B0BJXY8SBK</p></small></small>
+        <dl>
+            <dt>Aang</dt>
+            <dd>The main character from ATLA.</dd>
+            <dt>Katara</dt>
+            <dd>I hope nobody reads these.</dd>
+        </dl>
+        <p>An attribute is additional information given to the computer inside of the opening tag.</p>
+        <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">Link to more information.</a>
+        <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Links</a>
+    </body>
+</html>
