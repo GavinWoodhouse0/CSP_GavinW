@@ -1,0 +1,27 @@
+*{
+    background-color: blanchedalmond;
+    font-family: "League Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+p{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#one{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
