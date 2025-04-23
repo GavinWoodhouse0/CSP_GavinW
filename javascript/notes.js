@@ -1,6 +1,7 @@
 let images = ["https://nuts.com/images/ct/images.cdn.us-central1.gcp.commercetools.com/fe6ef66f-361c-4adb-b11f-d4aa8f13c79c/3012_RawHazelnutsFil-m2rR2kDt-large.jpg", "https://cdn-prod.medicalnewstoday.com/content/images/articles/323/323807/shelled-hazelnuts-in-small-white-bowl.jpg"]
 function hello(){
-    document.getElementById("title").innerHTML = "Hello World!"
+    let name = window.prompt("What is your name?", "World")
+    document.getElementById("title").innerHTML = "Hello " + name + "!"
 }
 count = 0
 function change(){
@@ -28,6 +29,16 @@ function show(){
     document.getElementById("hidden").style.display = "block"
 }
 
+function push(){
+    document.getElementById("btn").style.backgroundColor = "green"
+    document.getElementById("btn").style.color = "yellowgreen"
+}
+
+function highlight(){
+    document.getElementById("btn").style.backgroundColor = "purple"
+    document.getElementById("btn").style.color = "violet"
+}
+
 function pop(){
-    
+    window.alert("For real. Don't click this!")
 }
