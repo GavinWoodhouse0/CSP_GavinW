@@ -5,13 +5,9 @@ body{
     color: burlywood;
     background-color: brown;
 }
-img{
-    width: 25%;
-    margin: 10px;
-}
 #title{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 354px 276px 1fr;
     text-align: center;
 }
 #bigger{
@@ -22,7 +18,17 @@ img{
     grid-column-start: 3;
     margin: 28px;
 }
+#info{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
 p{
+    grid-column-start: 1;
     margin: 8px;
     padding: 10px;
+}
+img{
+    grid-column-start: 2;
+    width: 25%;
+    margin: 10px;
 }
