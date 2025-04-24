@@ -18,7 +18,17 @@ body{
     grid-column-start: 3;
     margin: 28px;
 }
-#info{
+#info-parent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#info-one{
+    grid-column-start: 1;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+#info-two{
+    grid-column-start: 2;
     display: grid;
     grid-template-columns: 25% 75%;
 }
