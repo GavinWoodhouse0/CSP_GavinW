@@ -7,13 +7,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="first_style_sheet.css">
+        <script src="first_java_script.js"></script>
     </head>
     <body>
         <div id="title">
             <h1 id="bigger">Everything Hazelnut!</h1>
             <h1 id="smaller">(Yes, we're doing this again.)</h1>
         </div>
-        <br>
         <div id="info-parent">
             <div id="info-one">
                 <h3>Why have you been making websites based around different nuts?</h3>
@@ -27,13 +27,20 @@
             </div>
         </div>
         <br>
-        <div>
+        <div id="hidden">
+            <div id="list">
             <h3>Our products:</h3>
-            <ul>
-                <li>Raw Hazelnuts</li>
-                <li>Deshelled and Salted Hazelnuts</li>
-                <li>Hazelnut Spread (Courtesy of <a href="https://www.nutella.com/us/en/" target="_blank">Nutella</a>)</li>
-            </ul>
+                <ul>
+                    <li>Raw Hazelnuts</li>
+                    <li>Deshelled and Salted Hazelnuts</li>
+                    <li>Hazelnut Spread (Courtesy of <a href="https://www.nutella.com/us/en/" target="_blank">Nutella</a>)</li>
+                </ul>
+            </div>
+            <button id="shw" onclick="more()">Show More</button>
+            <div id="extra">
+                <p>Buy the nuts or we steal your house.</p>
+                <img id="img" onmouseover="change()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCap2Bxmc_wJ7Qv933fYOi8Zc0jq4bhsjrw&s" alt="Hazel">
+            </div>
         </div>
     </body>
 </html>

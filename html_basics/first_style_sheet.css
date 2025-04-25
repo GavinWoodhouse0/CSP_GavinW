@@ -25,12 +25,12 @@ body{
 #info-one{
     grid-column-start: 1;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 60% 40%;
 }
 #info-two{
     grid-column-start: 2;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 60% 40%;
 }
 p{
     grid-column-start: 1;
@@ -39,6 +39,22 @@ p{
 }
 img{
     grid-column-start: 2;
-    width: 25%;
+    width: 350px;
     margin: 10px;
+}
+#hidden{
+    display: grid;
+    grid-template-columns: 20% 5% 75%;
+}
+#list{
+    grid-column-start: 1;
+}
+button{
+    grid-column-start: 2;
+    background-color: chocolate;
+    color: cornsilk;
+}
+#extra{
+    display: none;
+    grid-column-start: 3;
 }
